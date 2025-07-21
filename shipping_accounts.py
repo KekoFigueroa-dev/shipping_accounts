@@ -43,7 +43,19 @@ while True:
         print(f"To ship {order_number} items it will cost you ${float((order_number * 4.80))} at $4.80 per item")
     break
 
+while True: 
+    order_confirmation =(str(input("Would you like to place this order?: (y/n)")))
+    if order_confirmation.lower() == "y":
+        print(f"Okay Shipping your {order_number} Items!")
+        break
+    elif order_confirmation.lower() =="n":
+        print("Going back to main menu.")
+        break
+    else:
+        print("Please enter ( y or n )!")
+    continue
 
-    
+
+print("Thank you for testing my app, Here's Pikachu as a reward!")
 
 
