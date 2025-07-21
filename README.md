@@ -1,18 +1,25 @@
 Shipping Accounts Program
+
 A Python command-line application that simulates logging into a shipping business system. The app allows pre-approved users to calculate shipping costs based on their order size, perform robust input validation, and receive feedback with a cheerful Pikachu ASCII reward!
+
 ✨ Features
 User Authentication
 Only pre-approved usernames may log in (case-insensitive).
+
 Current Shipping Price Display
 See all shipping price tiers for different order quantities.
+
 Accurate Cost Calculation
 Calculates and displays the total cost of shipping your order.
+
 Robust Input Validation
 Handles invalid usernames, non-numeric and negative order values, and input errors gracefully.
+
 Order Confirmation
 Easy order placement or cancellation with instant feedback.
 ASCII Pikachu Reward
 Celebrate your order with a fun Pikachu!
+
 🚀 How to Use
 Clone or download this repository.
 Open the script in VS Code or your preferred IDE.
@@ -22,6 +29,7 @@ Enter a valid username (keko-dev, kevin, donald, john, pepe)
 Specify how many items you want to ship (must be a positive integer)
 Review the shipping price and confirm your order with y or n
 Enjoy your Pikachu ASCII reward!
+
 💻 Example Output
 Welcome to the Shipping Accounts Program
 This is a sample program with input validation.
